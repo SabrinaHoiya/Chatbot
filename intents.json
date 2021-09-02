@@ -1,0 +1,39 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["salut", "bonjour","bonsoir","Allo"],
+            "responses": ["bonsoir comment puis-je vous aider ?","Salut comment puis-je vous aider ?","Bonjour comment puis-je vous aider ?","Allo comment puis-je vous aider ?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Au revoir","Bonne journée","Bonne soirée","Bonne nuit "],
+            "responses": ["Au revoir","Bonne journee","Bonne soiree","A plus tard","A bientot","A la prochaine","rebienvenue","Passez un bon moment "],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Merci de m'avoir aidé","Merci","ok","C'est utile","génial"],
+            "responses": ["Heureux d'aider","A tout moment!","de rien","avec plaisir"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Desole, je ne vous pas compris","Merci de me donner plus d'infos"],
+            "context": [""]
+        },
+        {
+            "tag": "AZPlastering Info",
+            "patterns": ["qu'est-ce que AZ_Plastering ?","qui êtes-vous?","S'il vous plaît donnez-moi plus d'informations sur AZ_Plastering"],
+            "responses": ["AZ Plastering est une société tunisienne de plâtrerie"],
+            "context": [""]
+        },
+        {
+            "tag": "LocalAZ_Plastering",
+            "patterns": ["ou se trouve AZ_Plastering? ", "où vous êtes?","où est vous? "],
+            "responses": ["nous somme à sousse"],
+            "context": [""]
+        }
+    ]
+}
